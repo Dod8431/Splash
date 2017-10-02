@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 6a3839b0ae4304e4eb131dec8a8aba48
+timeCreated: 1506670037
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blocs_0
+    21300002: blocs_1
+    21300004: blocs_2
+    21300006: blocs_3
+    21300008: blocs_4
+    21300010: blocs_5
+    21300012: blocs_6
+    21300014: blocs_7
+    21300016: blocs_8
+    21300018: blocs_9
+    21300020: blocs_10
+    21300022: blocs_11
+    21300024: blocs_12
+    21300026: blocs_13
+    21300028: blocs_14
+    21300030: blocs_15
+    21300032: blocs_16
+    21300034: blocs_17
+    21300036: blocs_18
+    21300038: blocs_19
+    21300040: blocs_20
+    21300042: blocs_21
+    21300044: blocs_22
+    21300046: blocs_23
+    21300048: blocs_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 108
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blocs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1212
+        width: 193
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.5, y: 97.5}
+        - {x: -96.5, y: -96.99734}
+        - {x: 96.5, y: -96.99734}
+        - {x: 96.5, y: 97.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1214
+        width: 194
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.67969, y: 96.5}
+        - {x: -97, y: 90.41304}
+        - {x: -97, y: -96.05683}
+        - {x: 97, y: -96.05683}
+        - {x: 97, y: 96.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1214
+        width: 194
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.83201, y: 96.5}
+        - {x: -96.83201, y: -96.05683}
+        - {x: 97, y: -96.05683}
+        - {x: 97, y: 91.472534}
+        - {x: 93.89064, y: 96.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_3
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1214
+        width: 196
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.97166, y: 96.5}
+        - {x: -87.15037, y: 95.71048}
+        - {x: -91.38865, y: 91.472534}
+        - {x: -96.6865, y: 87.23458}
+        - {x: -97.74607, y: 86.175095}
+        - {x: -97.74607, y: -60.034245}
+        - {x: -96.6865, y: -96.05683}
+        - {x: 98, y: -96.05683}
+        - {x: 98, y: 96.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_4
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1214
+        width: 195
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.5, y: 96.5}
+        - {x: -97.5, y: -94.997345}
+        - {x: -96.89209, y: -96.05683}
+        - {x: 97.5, y: -96.05683}
+        - {x: 97.5, y: 90.41304}
+        - {x: 88.532715, y: 96.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_5
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1011
+        width: 388
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -179.92918, y: 194}
+        - {x: -193.7036, y: 193.60506}
+        - {x: -193.7036, y: -194}
+        - {x: 194, y: -194}
+        - {x: 194, y: 194}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1009
+        width: 194
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97, y: 98}
+        - {x: -97, y: -98}
+        - {x: 93.506836, y: -98}
+        - {x: 97, y: -97.10539}
+        - {x: 97, y: 98}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1011
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.83201, y: 97}
+        - {x: -96.83201, y: -97}
+        - {x: 91.7715, y: -97}
+        - {x: 97, y: -88.748474}
+        - {x: 97, y: 97}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1011
+        width: 196
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.74607, y: 97}
+        - {x: -97.74607, y: -81.33206}
+        - {x: -95.62693, y: -88.748474}
+        - {x: -86.0908, y: -97}
+        - {x: 98, y: -97}
+        - {x: 98, y: 97}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_9
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1011
+        width: 195
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.5, y: 97}
+        - {x: -97.5, y: -97}
+        - {x: 90.651855, y: -97}
+        - {x: 97.5, y: -82.39155}
+        - {x: 97.5, y: 97}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 785
+        width: 183
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.5, y: 92}
+        - {x: -91.5, y: -91.72628}
+        - {x: 91.5, y: -91.72628}
+        - {x: 91.5, y: 92}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 784
+        width: 186
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.97754, y: 92.5}
+        - {x: -92.97754, y: -92.19653}
+        - {x: 93, y: -92.19653}
+        - {x: 93, y: 88.97591}
+        - {x: 82.91113, y: 92.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_12
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 791
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83.85887, y: 92}
+        - {x: -92, y: 83.791824}
+        - {x: -92, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 92}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_13
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 791
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89.00927, y: 92}
+        - {x: -93, y: 92}
+        - {x: -93, y: -92}
+        - {x: 92.18798, y: -92}
+        - {x: 93, y: -91.02368}
+        - {x: 93, y: -71.9529}
+        - {x: 93, y: 88.02978}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_14
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 609
+        width: 353
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -176.1738, y: 174.5}
+        - {x: -176.1738, y: -174.49133}
+        - {x: 176.5, y: -174.49133}
+        - {x: 176.5, y: 169.84224}
+        - {x: 169.24611, y: 174.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 183
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.5, y: 45}
+        - {x: -91.5, y: -44.766567}
+        - {x: 91.5, y: -44.766567}
+        - {x: 91.5, y: 45}
+      physicsShape: []
+      tessellationDetail: 1
+    - serializedVersion: 2
+      name: blocs_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 417
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: -96.85165}
+        - {x: 97, y: 97}
+        - {x: -96.91796, y: 97}
+        - {x: -96.91796, y: -96.85165}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_17
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 597
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 92}
+        - {x: -93, y: -79.48306}
+        - {x: -83.739746, y: -92}
+        - {x: 93, y: -92}
+        - {x: 93, y: 92}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_18
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 597
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93, y: 92}
+        - {x: -93, y: -92}
+        - {x: 85.83056, y: -92}
+        - {x: 93, y: -86.89948}
+        - {x: 93, y: 92}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_19
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 394
+        width: 196
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.269516, y: 98.5}
+        - {x: -97.68651, y: 94.69464}
+        - {x: -97.68651, y: -97.07267}
+        - {x: -29.87401, y: -98.13216}
+        - {x: 98, y: -98.13216}
+        - {x: 98, y: 98.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_20
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 394
+        width: 194
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.479485, y: 98.5}
+        - {x: -96.94531, y: 98.5}
+        - {x: -96.94531, y: -98.13216}
+        - {x: 97, y: -98.13216}
+        - {x: 97, y: 86.21874}
+        - {x: 96.95605, y: 92.57567}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_21
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 198
+        width: 374
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -186.59082, y: 185}
+        - {x: -186.59082, y: -183.94539}
+        - {x: -183.41211, y: -185}
+        - {x: 183.19922, y: -185}
+        - {x: 187, y: -170.17206}
+        - {x: 187, y: 185}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 191
+        width: 194
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97, y: 98}
+        - {x: -97, y: -91.88327}
+        - {x: -84.322754, y: -98}
+        - {x: 97, y: -98}
+        - {x: 97, y: 98}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_23
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 191
+        width: 194
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.94531, y: 98}
+        - {x: -96.94531, y: -98}
+        - {x: 93.777336, y: -98}
+        - {x: 97, y: -88.70481}
+        - {x: 97, y: 98}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blocs_24
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 192
+        width: 199
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94.66992, y: -85.585846}
+        - {x: -99.5, y: -100.41867}
+        - {x: 91.01608, y: -100.41867}
+        - {x: 99.5, y: -94.061745}
+        - {x: 99.5, y: 100.5}
+        - {x: 89.53015, y: 97.27994}
+        - {x: 44.519043, y: 52.407013}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

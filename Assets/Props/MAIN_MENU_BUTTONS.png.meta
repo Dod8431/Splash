@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 0567db3e7beda3f4cac5d2f809e38afd
+timeCreated: 1505301680
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MAIN_MENU_BUTTONS_0
+    21300002: MAIN_MENU_BUTTONS_1
+    21300004: MAIN_MENU_BUTTONS_2
+    21300006: MAIN_MENU_BUTTONS_3
+    21300008: MAIN_MENU_BUTTONS_4
+    21300010: MAIN_MENU_BUTTONS_5
+    21300012: MAIN_MENU_BUTTONS_6
+    21300014: MAIN_MENU_BUTTONS_7
+    21300016: MAIN_MENU_BUTTONS_8
+    21300018: MAIN_MENU_BUTTONS_9
+    21300020: MAIN_MENU_BUTTONS_10
+    21300022: MAIN_MENU_BUTTONS_11
+    21300024: MAIN_MENU_BUTTONS_12
+    21300026: MAIN_MENU_BUTTONS_13
+    21300028: MAIN_MENU_BUTTONS_14
+    21300030: MAIN_MENU_BUTTONS_15
+    21300032: MAIN_MENU_BUTTONS_16
+    21300034: MAIN_MENU_BUTTONS_17
+    21300036: MAIN_MENU_BUTTONS_18
+    21300038: MAIN_MENU_BUTTONS_19
+    21300040: MAIN_MENU_BUTTONS_20
+    21300042: MAIN_MENU_BUTTONS_21
+    21300044: MAIN_MENU_BUTTONS_22
+    21300046: MAIN_MENU_BUTTONS_23
+    21300048: MAIN_MENU_BUTTONS_24
+    21300050: MAIN_MENU_BUTTONS_25
+    21300052: MAIN_MENU_BUTTONS_26
+    21300054: MAIN_MENU_BUTTONS_27
+    21300056: MAIN_MENU_BUTTONS_28
+    21300058: MAIN_MENU_BUTTONS_29
+    21300060: MAIN_MENU_BUTTONS_30
+    21300062: MAIN_MENU_BUTTONS_31
+    21300064: MAIN_MENU_BUTTONS_32
+    21300066: MAIN_MENU_BUTTONS_33
+    21300068: MAIN_MENU_BUTTONS_34
+    21300070: MAIN_MENU_BUTTONS_35
+    21300072: MAIN_MENU_BUTTONS_36
+    21300074: MAIN_MENU_BUTTONS_37
+    21300076: MAIN_MENU_BUTTONS_38
+    21300078: MAIN_MENU_BUTTONS_39
+    21300080: MAIN_MENU_BUTTONS_40
+    21300082: MAIN_MENU_BUTTONS_41
+    21300084: MAIN_MENU_BUTTONS_42
+    21300086: MAIN_MENU_BUTTONS_43
+    21300088: MAIN_MENU_BUTTONS_44
+    21300090: MAIN_MENU_BUTTONS_45
+    21300092: MAIN_MENU_BUTTONS_46
+    21300094: MAIN_MENU_BUTTONS_47
+    21300096: MAIN_MENU_BUTTONS_48
+    21300098: MAIN_MENU_BUTTONS_49
+    21300100: MAIN_MENU_BUTTONS_50
+    21300102: MAIN_MENU_BUTTONS_51
+    21300104: MAIN_MENU_BUTTONS_52
+    21300106: MAIN_MENU_BUTTONS_53
+    21300108: MAIN_MENU_BUTTONS_54
+    21300110: MAIN_MENU_BUTTONS_55
+    21300112: MAIN_MENU_BUTTONS_START
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MAIN_MENU_BUTTONS_START
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 487
+        width: 388
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MAIN_MENU_BUTTONS_0
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 251
+        width: 585
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MAIN_MENU_BUTTONS_1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 88
+        width: 278
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
