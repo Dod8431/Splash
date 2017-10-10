@@ -8,5 +8,10 @@ public class PhoneScreenOrientation : MonoBehaviour {
         Screen.orientation = ScreenOrientation.LandscapeLeft;
 		Screen.SetResolution(1920, 1080, true);
     }
+
+    void Update()
+    {
+        Debug.Log(Input.mousePosition);
+    }
 	
 }

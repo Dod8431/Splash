@@ -507,7 +507,7 @@ namespace DynamicLight2D
 				/// <summary>
 				/// The segments of light mesh.
 				/// </summary>
-				public int Segments = 60;
+				public int Segments = 80;
 
 				/// <summary>
 				/// The layer that light uses for interact with casters.

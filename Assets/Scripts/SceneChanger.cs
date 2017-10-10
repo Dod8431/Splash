@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour {
 
 	void StartButton()
 	{
- 		SceneManager.LoadScene("LVL_1", LoadSceneMode.Single);
+ 		StartCoroutine(StartLevel());
 	}
 
 	void OptionsButton()
@@ -18,5 +18,12 @@ public class SceneChanger : MonoBehaviour {
 	void ExitButton()
 	{
  		Application.Quit();
+	}
+
+	IEnumerator StartLevel()
+	{
+		yield return new WaitForSeconds(2.9f);
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+		yield return null;
 	}
 }

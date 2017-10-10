@@ -77,6 +77,11 @@ public class ChangeColor : MonoBehaviour {
 	[Header("Couleurs Peinture Blanche")]
 	public Color white;
 	[Space(10)]
+	[Header("Variables émetteur de particules")]
+	public bool iswhite;
+	public bool isred;
+	public bool isblue;
+	[Space(10)]
 	private int r;
 	private int b;
 
@@ -217,6 +222,9 @@ public class ChangeColor : MonoBehaviour {
 			redzoneh.GetComponent<BoxCollider2D>().size = RedzonehSize1;
 			redzoneh.GetComponent<AreaEffector2D>().forceMagnitude = Forceh;
 			redzoneh.GetComponent<AreaEffector2D>().forceAngle = Angleh;
+			isred = true;
+			isblue = false;
+			iswhite = false;
 			}
 		if(rend.color == red[1]){
 			redzoneh.SetActive(true);
@@ -225,6 +233,9 @@ public class ChangeColor : MonoBehaviour {
 			redzoneh.GetComponent<BoxCollider2D>().size = new Vector2 (RedzonehSize1.x*2, RedzonehSize1.y);
 			redzoneh.GetComponent<AreaEffector2D>().forceMagnitude = Forceh*2;
 			redzoneh.GetComponent<AreaEffector2D>().forceAngle = Angleh;
+			isred = true;
+			isblue = false;
+			iswhite = false;
 			}
 		if(rend.color == red[2]){
 			redzoneh.SetActive(true);
@@ -233,6 +244,9 @@ public class ChangeColor : MonoBehaviour {
 			redzoneh.GetComponent<BoxCollider2D>().size = new Vector2 (RedzonehSize1.x*4, RedzonehSize1.y);
 			redzoneh.GetComponent<AreaEffector2D>().forceMagnitude = Forceh*4;
 			redzoneh.GetComponent<AreaEffector2D>().forceAngle = Angleh;
+			isred = true;
+			isblue = false;
+			iswhite = false;
 			}
 
 		if(rend.color == blue[0]){
@@ -242,6 +256,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezoneh.GetComponent<BoxCollider2D>().size = BluezonehSize1;
 			bluezoneh.GetComponent<AreaEffector2D>().forceMagnitude = -Forceh;
 			bluezoneh.GetComponent<AreaEffector2D>().forceAngle = -Angleh;
+			isred = false;
+			isblue = true;
+			iswhite = false;
 			}
 		if(rend.color == blue[1]){
 			redzoneh.SetActive(false);
@@ -250,6 +267,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezoneh.GetComponent<BoxCollider2D>().size = new Vector2 (BluezonehSize1.x*2, BluezonehSize1.y);
 			bluezoneh.GetComponent<AreaEffector2D>().forceMagnitude = -Forceh*2;
 			bluezoneh.GetComponent<AreaEffector2D>().forceAngle = -Angleh;
+			isred = false;
+			isblue = true;
+			iswhite = false;
 			}
 		if(rend.color == blue[2]){
 			redzoneh.SetActive(false);
@@ -258,6 +278,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezoneh.GetComponent<BoxCollider2D>().size = new Vector2 (BluezonehSize1.x*4, BluezonehSize1.y);
 			bluezoneh.GetComponent<AreaEffector2D>().forceMagnitude = -Forceh*4;
 			bluezoneh.GetComponent<AreaEffector2D>().forceAngle = -Angleh;
+			isred = false;
+			isblue = true;
+			iswhite = false;
 			}	
 		}
 
@@ -270,6 +293,9 @@ public class ChangeColor : MonoBehaviour {
 			redzonev.GetComponent<BoxCollider2D>().size = RedzonevSize1;
 			redzonev.GetComponent<AreaEffector2D>().forceMagnitude = Forcev;
 			redzonev.GetComponent<AreaEffector2D>().forceAngle = Anglev;
+			isred = true;
+			isblue = false;
+			iswhite = false;
 			}
 		if(rend.color == red[1]){
 			redzonev.SetActive(true);
@@ -278,6 +304,9 @@ public class ChangeColor : MonoBehaviour {
 			redzonev.GetComponent<BoxCollider2D>().size = new Vector2 (RedzonevSize1.x, RedzonevSize1.y*2);
 			redzonev.GetComponent<AreaEffector2D>().forceMagnitude = Forcev*2;
 			redzonev.GetComponent<AreaEffector2D>().forceAngle = Anglev;
+			isred = true;
+			isblue = false;
+			iswhite = false;
 			}
 		if(rend.color == red[2]){
 			redzonev.SetActive(true);
@@ -286,6 +315,9 @@ public class ChangeColor : MonoBehaviour {
 			redzonev.GetComponent<BoxCollider2D>().size = new Vector2 (RedzonevSize1.x, RedzonevSize1.y*2);
 			redzonev.GetComponent<AreaEffector2D>().forceMagnitude = Forcev*4;
 			redzonev.GetComponent<AreaEffector2D>().forceAngle = Anglev;
+			isred = true;
+			isblue = false;
+			iswhite = false;
 			}
 
 		if(rend.color == blue[0]){
@@ -295,6 +327,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezonev.GetComponent<BoxCollider2D>().size = BluezonevSize1;
 			bluezonev.GetComponent<AreaEffector2D>().forceMagnitude = -Forcev;
 			bluezonev.GetComponent<AreaEffector2D>().forceAngle = -Anglev;
+			isred = false;
+			isblue = true;
+			iswhite = false;
 			}
 		if(rend.color == blue[1]){
 			redzonev.SetActive(false);
@@ -303,6 +338,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezonev.GetComponent<BoxCollider2D>().size = new Vector2 (BluezonevSize1.x, BluezonevSize1.y*2);
 			bluezonev.GetComponent<AreaEffector2D>().forceMagnitude = -Forcev*2;
 			bluezonev.GetComponent<AreaEffector2D>().forceAngle = -Anglev;
+			isred = false;
+			isblue = true;
+			iswhite = false;
 			}
 		if(rend.color == blue[2]){
 			redzonev.SetActive(false);
@@ -311,6 +349,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezonev.GetComponent<BoxCollider2D>().size = new Vector2 (BluezonevSize1.x, BluezonevSize1.y*2);
 			bluezonev.GetComponent<AreaEffector2D>().forceMagnitude = -Forcev*4;
 			bluezonev.GetComponent<AreaEffector2D>().forceAngle = -Anglev;
+			isred = false;
+			isblue = true;
+			iswhite = false;
 			}	
 		}
 		
@@ -321,6 +362,9 @@ public class ChangeColor : MonoBehaviour {
 			bluezoneh.SetActive(false);
 			redzonev.SetActive(false);
 			bluezonev.SetActive(false);
+			isred = false;
+			isblue = false;
+			iswhite = true;
 		}
 	}
 
